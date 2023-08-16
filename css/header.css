@@ -1,0 +1,30 @@
+@media(max-width:600px) {
+    .container-itens {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .menu-mobile{
+        border: none;
+        background: transparent;
+        color: #ffffff;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .botoes-direito{
+        color: #ffffff;
+    }
+
+    .logo{
+        padding-left: 20px;
+    }
+}
